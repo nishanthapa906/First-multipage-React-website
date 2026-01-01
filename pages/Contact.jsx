@@ -23,7 +23,7 @@ function Contact() {
         </div>
 
         <div className="contact-right">
-           <img src="/public/contactimg.jpg" alt="Contact" />
+           <img src="/images/contactimg.jpg" alt="Contact" />
         </div>
       </div>
     </div>

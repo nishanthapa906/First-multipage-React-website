@@ -5,7 +5,7 @@
 }
 
 .hero {
-  min-height: 0vh;
+  min-height: 100vh; 
   display: flex;
   align-items: center;
   justify-content: space-between;
@@ -15,9 +15,9 @@
 }
 
 .hero-text {
-    
   max-width: 45%;
-  margin-top: -200px;
+  position: relative;
+  top: -200px; 
 }
 
 .hero-text h1 {
@@ -31,7 +31,7 @@
 }
 
 .hero-text p {
-    margin-top: 20px;
+  margin-top: 20px;
   color: #f2f2f2;
   font-size: 24px;
   line-height: 1.6;
@@ -53,14 +53,9 @@
 }
 
 .hero-image img {
-  width: 850px;
-  /* max-width: 100%; */
-  /* padding: 10px; */
+  width: 850px; 
+  max-width: 100%; 
   margin-right: 60px;
-  box-shadow: #ff6b5c;
-  border: px solid #5a6388 ;
   border-radius: 202px;
-  box-shadow: #ff5545;
-  box-shadow: 5px 5px 15px #ff5545; /* proper box-shadow */
-
+  box-shadow: 5px 5px 15px #ff5545;
 }
